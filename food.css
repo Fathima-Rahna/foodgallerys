@@ -1,0 +1,132 @@
+.row{
+    background-color: black;
+  /* height: 500px;*/
+    display: flex;
+
+    justify-content: space-evenly;
+    align-items: center;
+
+    flex-wrap: wrap;
+}
+.col{
+    height:300px;
+    width:270px;
+    border: 2px solid red;
+   
+    border-radius: 3px;
+    
+    margin:1px;
+}
+
+    img{
+height: 250px;
+width:270px;
+    }
+  .c{
+    color:red;
+    text-align: center;
+  } 
+  p{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 3px;
+  }
+    
+
+.col-1{
+    background-color: black}
+.col-2{
+    background-color:black;
+
+}
+.col-3{
+    background-color:black;
+
+}
+.col-4{
+    background-color: black;
+
+}
+.col-5{
+    background-color: black;
+
+}
+h1{
+    color:red;
+    text-align: center;
+}
+.cola{
+    height:300px;
+    width:270px;
+    border: 2px solid red;
+    
+    margin:1px;
+}
+.row1{
+    background-color: black;
+ /* height: 500px;*/
+    display: flex;
+
+    justify-content: space-between;
+    
+
+    flex-wrap: wrap;
+    flex-direction:column;}
+    
+    
+    img2{
+        height: 300px;
+        width:270px;}
+        .row3{
+            background-color: black;
+         /* height: 500px;*/
+            display: flex;
+        
+            justify-content: space-end;
+            align-items: end;
+            
+        
+            flex-wrap: wrap;}
+            .colas{
+                height:300px;
+                width:270px;
+                
+                
+                margin:1px;
+
+            }
+            .head{
+                background-color: black;
+                margin-bottom: 0px;
+                margin-top: px;
+            }
+            .colw{
+                height:300px;
+                width:270px;
+                border: 2px solid red;
+                
+                margin:1px;}
+                .rowback{
+                    height: 600px;
+                    width:100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: relative;
+                }
+                    
+
+                .rowback:before{
+                    
+                    background-image: url('./images/foood.jpg');
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    position: absolute;
+                  
+                }
+              
+
+                
+               
